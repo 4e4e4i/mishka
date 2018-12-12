@@ -1,0 +1,28 @@
+.radio-btn__input {
+  position: absolute;
+  opacity: 0;
+}
+
+.radio-btn__text {
+  width: 82px;
+  display: block;
+  padding: 15px 26px;
+
+  font-size: $font-size;
+  font-weight: bold;
+  line-height: 0.94;
+  text-align: center;
+
+  opacity: 0.1;
+  border: solid 2px $gray-dark;
+}
+
+.radio-btn__input:checked ~ .radio-btn__text {
+  opacity: 1;
+  border: solid 2px $main-color;
+}
+
+.radio-btn__input:hover ~ .radio-btn__text,
+.radio-btn__input:focus ~ .radio-btn__text {
+  opacity: 0.3;
+}

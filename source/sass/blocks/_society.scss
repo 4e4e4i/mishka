@@ -1,0 +1,15 @@
+.society__link {
+  font-size: 0;
+}
+
+.society__link + .society__link {
+  margin-left: 40px;
+}
+
+.society__link:hover svg {
+  fill: $main-color-light;
+}
+
+.society__link:active {
+  opacity: 0.3;
+}

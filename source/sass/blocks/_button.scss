@@ -1,0 +1,17 @@
+.button {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+
+  font-size: $font-size;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: $gray-dark;
+  font-family: $opensans;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  border: solid 2px $gray-dark;
+  background-color: $white;
+}

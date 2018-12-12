@@ -1,0 +1,16 @@
+.field-textarea {
+  width: 100%;
+  min-height: 142px;
+  padding: 18px 17px;
+
+  border: solid 2px $gray-dark;
+}
+
+.field-textarea[placeholder] {
+  font-family: $opensans;
+  font-size: $font-size;
+  line-height: 1.06;
+  color: rgba($gray-dark, 0.3);
+
+  text-overflow: ellipsis;
+}

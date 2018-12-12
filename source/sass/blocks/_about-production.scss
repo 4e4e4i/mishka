@@ -1,0 +1,35 @@
+.about-production__video {
+  height: 150px;
+  width: 100%;
+}
+
+.about-production__header {
+  padding: 30px 34px 26px;
+  display: flex;
+  align-items: center;
+}
+
+.about-production__header svg {
+  margin-right: 25px;
+  fill: $main-color;
+}
+
+.about-production__title {
+  font-size: $font-size;
+  line-height: 24px;
+  font-weight: 700;
+
+  margin: 0;
+}
+
+.about-production__info {
+  padding: 34px;
+}
+
+.about-production__text {
+  font-size: $font-size-small;
+  line-height: 24px;
+  color: $gray-dark;
+
+  margin-bottom: 30px;
+}

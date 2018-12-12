@@ -1,0 +1,37 @@
+.main__title {
+  padding: 76px 30px 74px;
+  margin: 0;
+
+  font-size: $font-size-h1;
+  line-height: 30px;
+  text-align: center;
+  font-family: $opensans;
+  font-weight: 700;
+  color: $black;
+
+  background-color: $gray;
+}
+
+.main__products {
+  padding: 30px 30px;
+}
+
+.main__about-production {
+  width: 260px;
+  margin: 0 auto 58px;
+
+  border: 1px solid $gray-light;
+}
+
+.main-wrapper {
+  padding: 0 30px;
+  margin-bottom: 55px;
+}
+
+.main__text {
+  font-size: $font-size-small;
+  line-height: 1.85;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
